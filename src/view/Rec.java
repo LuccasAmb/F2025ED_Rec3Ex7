@@ -11,7 +11,7 @@ public class Rec {
 		int numero;
 		RecController rec = new RecController();
 		numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um númeor inteiro"));
-		System.out.println(rec.Rec(numero, 0));
+		System.out.println(rec.Rec(numero));
 	}
 
 }

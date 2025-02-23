@@ -10,8 +10,11 @@ public class Rec {
 		// TODO Auto-generated method stub
 		int numero;
 		RecController rec = new RecController();
-		numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um númeor inteiro até 2000"));
-		System.out.println(rec.Rec(numero, ""));
+		do {
+			numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um númeor inteiro até 20"));
+
+		} while (numero > 20 || numero < 1);
+		System.out.println(rec.Rec(numero));
 	}
 
 }

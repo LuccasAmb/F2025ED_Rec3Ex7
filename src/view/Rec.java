@@ -8,10 +8,10 @@ public class Rec {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String string;
+		int numero;
 		RecController rec = new RecController();
-		string = JOptionPane.showInputDialog("Digite algo");
-		System.out.println(rec.Rec(string, ""));
+		numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um númeor inteiro até 2000"));
+		System.out.println(rec.Rec(numero, ""));
 	}
 
 }
